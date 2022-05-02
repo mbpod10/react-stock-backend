@@ -1,9 +1,9 @@
-Backend for [stocks-frontend,'https://github.com/mbpod10/react-components']
+Backend for [stocks-frontend]('https://github.com/mbpod10/react-components')
 
 
 ```
-npm install body-parser cors express morgan nodemon
-```
+npm install body-parser cors express morgan nodemon mysql @faker-js/faker
+``` 
 
 ```json
 {
