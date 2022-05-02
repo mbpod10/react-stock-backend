@@ -1,18 +1,17 @@
 const db = require('./databaseConfig')
-// import { faker } from '@faker-js/faker';
 const { faker } = require('@faker-js/faker')
 
 let stocks = []
 let add_stocks = "INSERT INTO stocks (name, symbol, price, owned, amount) VALUES ?";
 
 const createStockData = () => {
-  const trueArray = [0, 1]
+  const doolArray = [false, true]
   for (let i = 0; i < 50; i++) {
     let name = faker.company.companyName()
-    let symbol = faker.finance.currencyCode()
+    let symbol = (name.slice(0, 3)).toUpperCase()
     let price = faker.datatype.float({ max: 300 })
-    let owned = trueArray[Math.floor(Math.random() * trueArray.length)]
-    let amount = owned > 0 ? faker.datatype.number({ max: 100 }) : 0
+    let owned = doolArray[Math.floor(Math.random() * doolArray.length)]
+    let amount = owned ? faker.datatype.number({ max: 100 }) : 0
     stocks.push([name, symbol, price, owned, amount])
   }
 }

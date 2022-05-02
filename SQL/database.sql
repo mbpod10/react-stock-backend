@@ -8,7 +8,7 @@ CREATE TABLE stocks (
     name VARCHAR(255) NOT NULL,
     symbol VARCHAR(255) NOT NULL,
     price FLOAT,
-    owned INT,
+    owned BOOLEAN,
     amount INT
 
 );
