@@ -41,6 +41,16 @@ router.get('/portfolio/owned', (req, res) => {
   });
 })
 
+router.get('/name/:name', (req, res) => {
+  let name = req.params.name
+  db.query(stocks_query.get_stock_by_name, [name], (error, results) => {
+    if (error) throw error;
+    convertBoolean(results)
+    return res.status(200).send(results)
+  });
+})
+
+
 // PUT
 
 router.post('/update/:id', (req, res) => {
@@ -48,7 +58,15 @@ router.post('/update/:id', (req, res) => {
   let id = req.params.id
   db.query(stocks_query.put_owned_stock_bool, [bool, id], (error, results) => {
     if (error) throw error;
-    console.log(results.affectedRows)
+    return res.status(200).send(results)
+  });
+})
+
+router.post('/:id', (req, res) => {
+  let amount = req.body.amount
+  let id = req.params.id
+  db.query(stocks_query.put_stock_owned_amount, [amount, id], (error, results) => {
+    if (error) throw error;
     return res.status(200).send(results)
   });
 })
