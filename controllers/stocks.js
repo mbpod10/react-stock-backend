@@ -63,11 +63,40 @@ router.post('/update/:id', (req, res) => {
 })
 
 router.post('/:id', (req, res) => {
-  let amount = req.body.amount
+  let transaction = req.body.transaction
+  let amount = parseInt(req.body.amount, 10)
+  if (amount === 0 || isNaN(amount)) return res.status(200).send({ 'error': `Please Enter Valid Number` })
   let id = req.params.id
-  db.query(stocks_query.put_stock_owned_amount, [amount, id], (error, results) => {
-    if (error) throw error;
-    return res.status(200).send(results)
+  let stockQuery = `SELECT amount FROM stocks WHERE id = ?`
+  db.query(stockQuery, [id], (error, result) => {
+    if (error) throw error
+    let queryAmount = JSON.parse(JSON.stringify(result[0])).amount
+    if (transaction === 'sell') {
+      if (queryAmount < amount) {
+        return res.status(200).send({ 'error': `You Only Have ${queryAmount} Share(s) To Sell` })
+      }
+      else {
+        let newAmount = queryAmount - amount
+        // if (newAmount === 0) {
+        //   let toggleOwnedQuery = 'UPDATE stocks SET amount = ?, owned = ? WHERE id = ?'
+        //   db.query(toggleOwnedQuery, [newAmount, 0, id], (error, results) => {
+        //     if (error) throw error;
+        //     return res.status(200).send(results)
+        //   });
+        // }
+        db.query(stocks_query.put_stock_owned_amount, [newAmount, id], (error, results) => {
+          if (error) throw error;
+          return res.status(200).send(results)
+        });
+      }
+    }
+    if (transaction === 'buy') {
+      let newAmount = queryAmount + amount
+      db.query(stocks_query.put_stock_owned_amount, [newAmount, id], (error, results) => {
+        if (error) throw error;
+        return res.status(200).send(results)
+      });
+    }
   });
 })
 
