@@ -4,4 +4,9 @@ USE stock_node_db;
 -- UPDATE stocks SET owned = IF(owned=1, 0, 1)  WHERE id = 1
 -- SELECT * FROM stocks WHERE name = "O'Hara - Kihn"
 -- UPDATE stocks SET amount = 10 WHERE id = 1
-SELECT amount FROM stocks WHERE id = 1
+-- SELECT amount FROM stocks WHERE id = 1
+-- SELECT * FROM stocks LIMIT 10 OFFSET 0
+-- SELECT * FROM stocks LIMIT 30 OFFSET 10
+-- SELECT * FROM stocks LIMIT 30 OFFSET 0
+-- SELECT * FROM stocks LIMIT 30 OFFSET 30
+SELECT COUNT(id) FROM stocks
