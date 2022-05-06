@@ -6,7 +6,7 @@ let add_stocks = "INSERT INTO stocks (name, symbol, price, owned, amount) VALUES
 
 const createStockData = () => {
   const boolArray = [false, true]
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < 500; i++) {
     let name = faker.company.companyName()
     let symbol = (name.slice(0, 3)).toUpperCase()
     let price = faker.datatype.float({ max: 300 })

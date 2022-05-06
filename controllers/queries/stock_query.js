@@ -8,6 +8,8 @@ const stocks_query = {
     `SELECT * FROM stocks WHERE owned = 1`,
   get_stock_by_name:
     `SELECT * FROM stocks WHERE name = ?`,
+  get_user_total_money:
+    `SELECT ROUND(SUM(price * amount), 2) as total_amount FROM stocks`,
   put_owned_stock_bool:
     `UPDATE stocks SET owned = ? WHERE id = ?`,
   put_stock_owned_amount:

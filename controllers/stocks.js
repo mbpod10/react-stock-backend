@@ -20,29 +20,32 @@ router.get('/list/page/:page_num', (req, res) => {
   const TOTAL_QUERY = `SELECT COUNT(id) FROM stocks`
   db.query(TOTAL_QUERY, (error, results) => {
     if (error) throw error;
-
     count = results[0]['COUNT(id)']
-    // return res.status(200).send(results)
   });
-
   const PAGINATE_QUERY = `SELECT * FROM stocks LIMIT ? OFFSET ?`
-  const MULTIPLIER = 10
+  const MULTIPLIER = 50
   let OFFSET_QUERY = (+req.params.page_num - 1) * MULTIPLIER
   db.query(PAGINATE_QUERY, [MULTIPLIER, OFFSET_QUERY], (error, results) => {
     if (error) throw error;
     convertBoolean(results)
-    // return res.status(200).send(results)
     return res.status(200).send({ stocks: results, total: count })
   });
 })
 
 // GET
 
+router.get('/money/total', (req, res) => {
+  db.query(stocks_query.get_user_total_money, (error, results) => {
+    if (error) throw error
+    return res.status(200).send(results[0])
+  })
+})
+
 router.get('/', (req, res) => {
   db.query(stocks_query.get_all_stocks, (error, results) => {
     if (error) throw error;
     convertBoolean(results)
-    console.log(results.length)
+    // console.log(results.length)
     return res.status(200).send(results)
   });
 })

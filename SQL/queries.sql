@@ -9,4 +9,6 @@ USE stock_node_db;
 -- SELECT * FROM stocks LIMIT 30 OFFSET 10
 -- SELECT * FROM stocks LIMIT 30 OFFSET 0
 -- SELECT * FROM stocks LIMIT 30 OFFSET 30
-SELECT COUNT(id) FROM stocks
+-- SELECT COUNT(id) FROM stocks
+-- SELECT ROUND(SUM(price * amount), 2) as total_amount FROM stocks
+SELECT * FROM stocks WHERE amount > 0
