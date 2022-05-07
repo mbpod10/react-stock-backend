@@ -1,4 +1,5 @@
-const express = require('express')
+const express = require('express');
+const { route } = require('express/lib/application');
 const router = express.Router();
 const db = require('../databaseConfig')
 const stocks_query = require("./queries/stock_query")
@@ -14,21 +15,27 @@ const convertBoolean = (resultsArray) => {
   });
 }
 
-// PAGINATION QUERY
-router.get('/list/page/:page_num', (req, res) => {
-  let count = 0
-  const TOTAL_QUERY = `SELECT COUNT(id) FROM stocks`
-  db.query(TOTAL_QUERY, (error, results) => {
-    if (error) throw error;
-    count = results[0]['COUNT(id)']
-  });
-  const PAGINATE_QUERY = `SELECT * FROM stocks LIMIT ? OFFSET ?`
+// PAGINATION QUERY FOR INFINITE SCROLL
+router.get('/list/page/:page_num/:order_query', (req, res) => {
+  const ORDER_BY_QUERY = req.params['order_query']
+
+  let PAGINATE_QUERY
+
+  if (ORDER_BY_QUERY === 'owned') {
+    PAGINATE_QUERY = 'SELECT * FROM stocks WHERE owned = true'
+  }
+
+  PAGINATE_QUERY = ORDER_BY_QUERY === 'price' || ORDER_BY_QUERY === 'amount' ?
+    `SELECT * FROM stocks ORDER BY ${ORDER_BY_QUERY} DESC LIMIT ? OFFSET ?` : `SELECT * FROM stocks ORDER BY ${ORDER_BY_QUERY} LIMIT ? OFFSET ?`
+
+
   const MULTIPLIER = 50
-  let OFFSET_QUERY = (+req.params.page_num - 1) * MULTIPLIER
+  const OFFSET_QUERY = (+req.params.page_num - 1) * MULTIPLIER
+
   db.query(PAGINATE_QUERY, [MULTIPLIER, OFFSET_QUERY], (error, results) => {
     if (error) throw error;
     convertBoolean(results)
-    return res.status(200).send({ stocks: results, total: count })
+    return res.status(200).send({ stocks: results })
   });
 })
 
@@ -50,14 +57,6 @@ router.get('/', (req, res) => {
   });
 })
 
-router.get('/:id', (req, res) => {
-  let id = req.params.id
-  db.query(stocks_query.get_stock_by_id, [id], (error, results) => {
-    if (error) throw error;
-    convertBoolean(results)
-    return res.status(200).send(results)
-  });
-})
 
 router.get('/portfolio/owned', (req, res) => {
   db.query(stocks_query.get_owned_stocks, (error, results) => {
@@ -88,6 +87,7 @@ router.post('/update/:id', (req, res) => {
   });
 })
 
+// FOR A BUY OR SELL TRANSACTION AND LOGIC OF BOUGHT OR SOLD WITH AMOUNT OWNED
 router.post('/:id', (req, res) => {
   let transaction = req.body.transaction
   let amount = parseInt(req.body.amount, 10)
@@ -103,22 +103,24 @@ router.post('/:id', (req, res) => {
       }
       else {
         let newAmount = queryAmount - amount
-        // if (newAmount === 0) {
-        //   let toggleOwnedQuery = 'UPDATE stocks SET amount = ?, owned = ? WHERE id = ?'
-        //   db.query(toggleOwnedQuery, [newAmount, 0, id], (error, results) => {
-        //     if (error) throw error;
-        //     return res.status(200).send(results)
-        //   });
-        // }
-        db.query(stocks_query.put_stock_owned_amount, [newAmount, id], (error, results) => {
-          if (error) throw error;
-          return res.status(200).send(results)
-        });
+        if (newAmount === 0) {
+          let toggleOwnedQuery = 'UPDATE stocks SET amount = 0, owned = false WHERE id = ?'
+          db.query(toggleOwnedQuery, [id], (error, results) => {
+            if (error) throw error;
+            return res.status(200).send(results)
+          });
+        }
+        else {
+          db.query(stocks_query.put_stock_owned_amount, [newAmount, id], (error, results) => {
+            if (error) throw error;
+            return res.status(200).send(results)
+          });
+        }
       }
     }
     if (transaction === 'buy') {
       let newAmount = queryAmount + amount
-      db.query(stocks_query.put_stock_owned_amount, [newAmount, id], (error, results) => {
+      db.query(stocks_query.stock_bought, [newAmount, id], (error, results) => {
         if (error) throw error;
         return res.status(200).send(results)
       });
@@ -126,5 +128,17 @@ router.post('/:id', (req, res) => {
   });
 })
 
+
+router.get('/:id', (req, res) => {
+  let transaction = req.body.transaction
+  console.log(req.body)
+  SQL_QUERY =
+    `SELECT IF(STRCMP("BUY","BUY") = 0, "YES", "NO")`
+  db.query(SQL_QUERY, (error, results) => {
+    if (error) throw error;
+
+    return res.status(200).send({ good: 'This is good' })
+  });
+})
 
 module.exports = router

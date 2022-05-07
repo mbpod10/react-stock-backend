@@ -13,7 +13,9 @@ const stocks_query = {
   put_owned_stock_bool:
     `UPDATE stocks SET owned = ? WHERE id = ?`,
   put_stock_owned_amount:
-    `UPDATE stocks SET amount = ? WHERE id = ?`
+    `UPDATE stocks SET amount = ? WHERE id = ?`,
+  stock_bought:
+    `UPDATE stocks SET owned = true, amount = ? WHERE id = ?`
 }
 
 module.exports = stocks_query
