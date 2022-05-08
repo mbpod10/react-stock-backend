@@ -19,17 +19,11 @@ const convertBoolean = (resultsArray) => {
 router.get('/list/page/:page_num/:order_query', (req, res) => {
   const ORDER_BY_QUERY = req.params['order_query']
 
-  let PAGINATE_QUERY
+  let PAGINATE_QUERY = ORDER_BY_QUERY === 'price' || ORDER_BY_QUERY === 'amount' ?
+    `SELECT * FROM stocks ORDER BY ${ORDER_BY_QUERY} DESC LIMIT ? OFFSET ?` :
+    `SELECT * FROM stocks ORDER BY ${ORDER_BY_QUERY} LIMIT ? OFFSET ?`
 
-  if (ORDER_BY_QUERY === 'owned') {
-    PAGINATE_QUERY = 'SELECT * FROM stocks WHERE owned = true'
-  }
-
-  PAGINATE_QUERY = ORDER_BY_QUERY === 'price' || ORDER_BY_QUERY === 'amount' ?
-    `SELECT * FROM stocks ORDER BY ${ORDER_BY_QUERY} DESC LIMIT ? OFFSET ?` : `SELECT * FROM stocks ORDER BY ${ORDER_BY_QUERY} LIMIT ? OFFSET ?`
-
-
-  const MULTIPLIER = 50
+  const MULTIPLIER = 100
   const OFFSET_QUERY = (+req.params.page_num - 1) * MULTIPLIER
 
   db.query(PAGINATE_QUERY, [MULTIPLIER, OFFSET_QUERY], (error, results) => {
@@ -40,7 +34,6 @@ router.get('/list/page/:page_num/:order_query', (req, res) => {
 })
 
 // GET
-
 router.get('/money/total', (req, res) => {
   db.query(stocks_query.get_user_total_money, (error, results) => {
     if (error) throw error
@@ -52,7 +45,6 @@ router.get('/', (req, res) => {
   db.query(stocks_query.get_all_stocks, (error, results) => {
     if (error) throw error;
     convertBoolean(results)
-    // console.log(results.length)
     return res.status(200).send(results)
   });
 })

@@ -24,3 +24,4 @@ USE stock_node_db;
 -- SELECT * FROM stocks ORDER BY name LIMIT 50 OFFSET 100 
 -- SELECT * FROM stocks ORDER BY price DESC LIMIT 50 OFFSET 0
 -- SELECT * FROM stocks WHERE owned = true AND SELECT * FROM stocks WHERE owned = false
+SELECT * FROM stocks ORDER BY amount DESC 
