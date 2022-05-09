@@ -1,8 +1,10 @@
 const express = require('express');
-const { route } = require('express/lib/application');
+const morgan = require('morgan');
 const router = express.Router();
 const db = require('../databaseConfig')
 const stocks_query = require("./queries/stock_query")
+
+const logger = morgan('combined')
 
 const convertBoolean = (resultsArray) => {
   resultsArray.forEach(element => {

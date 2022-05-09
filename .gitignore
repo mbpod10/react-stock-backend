@@ -1,6 +1,7 @@
-/node_modules
-databaseConfig.js
+Node/node_modules
+Node/databaseConfig.js
 practice.js
 t.json
 names.js
 .env
+Node/.env
