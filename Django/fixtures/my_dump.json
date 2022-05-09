@@ -1,0 +1,5502 @@
+[
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 1,
+      "name": "Ryan, MacGyver and Welch",
+      "symbol": "RYA",
+      "price": 298.49,
+      "amount": 21,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 2,
+      "name": "Bradtke - Hettinger",
+      "symbol": "BRA",
+      "price": 23.22,
+      "amount": 4,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 3,
+      "name": "Jaskolski LLC",
+      "symbol": "JAS",
+      "price": 275.74,
+      "amount": 1,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 4,
+      "name": "Rolfson - Conroy",
+      "symbol": "ROL",
+      "price": 232.5,
+      "amount": 23,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 5,
+      "name": "Grady, Hermann and Bauch",
+      "symbol": "GRA",
+      "price": 3.34,
+      "amount": 1,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 6,
+      "name": "Collins Group",
+      "symbol": "COL",
+      "price": 251.25,
+      "amount": 37,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 7,
+      "name": "Hermann, Strosin and Kunze",
+      "symbol": "HER",
+      "price": 214.01,
+      "amount": 7,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 8,
+      "name": "Homenick, Thiel and Macejkovic",
+      "symbol": "HOM",
+      "price": 170.53,
+      "amount": 69,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 9,
+      "name": "Green - Hudson",
+      "symbol": "GRE",
+      "price": 241.67,
+      "amount": 9,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 10,
+      "name": "Murazik - Emard",
+      "symbol": "MUR",
+      "price": 282.53,
+      "amount": 2,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 11,
+      "name": "Connelly and Sons",
+      "symbol": "CON",
+      "price": 218.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 12,
+      "name": "Nicolas, Shanahan and Murray",
+      "symbol": "NIC",
+      "price": 295.01,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 13,
+      "name": "Weber Group",
+      "symbol": "WEB",
+      "price": 289.13,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 14,
+      "name": "Larkin - Murphy",
+      "symbol": "LAR",
+      "price": 192.49,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 15,
+      "name": "Ritchie, Shields and Gulgowski",
+      "symbol": "RIT",
+      "price": 78.41,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 16,
+      "name": "Schroeder - Murray",
+      "symbol": "SCH",
+      "price": 40.07,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 17,
+      "name": "Sanford, Pouros and Schaden",
+      "symbol": "SAN",
+      "price": 158.44,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 18,
+      "name": "Armstrong, Tillman and Hermann",
+      "symbol": "ARM",
+      "price": 214.45,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 19,
+      "name": "Braun - Dare",
+      "symbol": "BRA",
+      "price": 255.22,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 20,
+      "name": "Murray - Friesen",
+      "symbol": "MUR",
+      "price": 150.26,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 21,
+      "name": "Carroll - Rath",
+      "symbol": "CAR",
+      "price": 275.47,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 22,
+      "name": "Schaden - Weimann",
+      "symbol": "SCH",
+      "price": 92.64,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 23,
+      "name": "Champlin - Hodkiewicz",
+      "symbol": "CHA",
+      "price": 226.39,
+      "amount": 3,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 24,
+      "name": "Boyer, Schowalter and Keeling",
+      "symbol": "BOY",
+      "price": 278.72,
+      "amount": 1,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 25,
+      "name": "Heidenreich - Lueilwitz",
+      "symbol": "HEI",
+      "price": 79.32,
+      "amount": 9,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 26,
+      "name": "Mohr - Franecki",
+      "symbol": "MOH",
+      "price": 4.01,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 27,
+      "name": "Ebert, Brekke and Bahringer",
+      "symbol": "EBE",
+      "price": 43.7,
+      "amount": 1,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 28,
+      "name": "Schowalter - Ortiz",
+      "symbol": "SCH",
+      "price": 1.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 29,
+      "name": "Nolan - Huels",
+      "symbol": "NOL",
+      "price": 146.35,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 30,
+      "name": "Boehm, Kihn and Osinski",
+      "symbol": "BOE",
+      "price": 270.58,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 31,
+      "name": "Koss, Monahan and Sanford",
+      "symbol": "KOS",
+      "price": 37.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 32,
+      "name": "Kuhn, McLaughlin and Cassin",
+      "symbol": "KUH",
+      "price": 98.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 33,
+      "name": "Torphy, Walker and Hintz",
+      "symbol": "TOR",
+      "price": 116.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 34,
+      "name": "White Inc",
+      "symbol": "WHI",
+      "price": 124.57,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 35,
+      "name": "Russel Group",
+      "symbol": "RUS",
+      "price": 246.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 36,
+      "name": "Powlowski LLC",
+      "symbol": "POW",
+      "price": 297.34,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 37,
+      "name": "Haley - Pouros",
+      "symbol": "HAL",
+      "price": 284.59,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 38,
+      "name": "Blanda Group",
+      "symbol": "BLA",
+      "price": 102.84,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 39,
+      "name": "Skiles, Collins and Steuber",
+      "symbol": "SKI",
+      "price": 282.36,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 40,
+      "name": "Goldner Inc",
+      "symbol": "GOL",
+      "price": 80.26,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 41,
+      "name": "Paucek Inc",
+      "symbol": "PAU",
+      "price": 89.1,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 42,
+      "name": "Littel, Zulauf and Quigley",
+      "symbol": "LIT",
+      "price": 62.27,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 43,
+      "name": "Nader - Hauck",
+      "symbol": "NAD",
+      "price": 124.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 44,
+      "name": "Deckow - Brekke",
+      "symbol": "DEC",
+      "price": 290.84,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 45,
+      "name": "Schaden and Sons",
+      "symbol": "SCH",
+      "price": 14.52,
+      "amount": 10,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 46,
+      "name": "Wintheiser LLC",
+      "symbol": "WIN",
+      "price": 46.22,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 47,
+      "name": "Schuppe - Simonis",
+      "symbol": "SCH",
+      "price": 290.92,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 48,
+      "name": "Prohaska - Armstrong",
+      "symbol": "PRO",
+      "price": 129.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 49,
+      "name": "Beatty and Sons",
+      "symbol": "BEA",
+      "price": 115.37,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 50,
+      "name": "McClure Inc",
+      "symbol": "MCC",
+      "price": 264.26,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 51,
+      "name": "Mitchell, Brekke and Littel",
+      "symbol": "MIT",
+      "price": 112.35,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 52,
+      "name": "Lynch, Lebsack and Smitham",
+      "symbol": "LYN",
+      "price": 286.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 53,
+      "name": "Harvey, Koelpin and Daugherty",
+      "symbol": "HAR",
+      "price": 263.71,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 54,
+      "name": "Turner, Abernathy and Frami",
+      "symbol": "TUR",
+      "price": 248.22,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 55,
+      "name": "Keebler Inc",
+      "symbol": "KEE",
+      "price": 56.75,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 56,
+      "name": "Green Group",
+      "symbol": "GRE",
+      "price": 238.68,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 57,
+      "name": "Champlin Inc",
+      "symbol": "CHA",
+      "price": 162.18,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 58,
+      "name": "Boehm Inc",
+      "symbol": "BOE",
+      "price": 188.03,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 59,
+      "name": "Becker, Walsh and Stehr",
+      "symbol": "BEC",
+      "price": 195.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 60,
+      "name": "Kunze - Wiegand",
+      "symbol": "KUN",
+      "price": 255.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 61,
+      "name": "Rice and Sons",
+      "symbol": "RIC",
+      "price": 135.41,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 62,
+      "name": "Jacobson - Keeling",
+      "symbol": "JAC",
+      "price": 163.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 63,
+      "name": "Kuhlman, Jaskolski and Reinger",
+      "symbol": "KUH",
+      "price": 175.46,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 64,
+      "name": "Weimann Inc",
+      "symbol": "WEI",
+      "price": 112.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 65,
+      "name": "Zboncak Group",
+      "symbol": "ZBO",
+      "price": 264.56,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 66,
+      "name": "Bailey, Howell and Davis",
+      "symbol": "BAI",
+      "price": 246.81,
+      "amount": 50,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 67,
+      "name": "Bartell, Rutherford and Morissette",
+      "symbol": "BAR",
+      "price": 46.08,
+      "amount": 41,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 68,
+      "name": "Blanda - Rodriguez",
+      "symbol": "BLA",
+      "price": 178.59,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 69,
+      "name": "Nienow, Leffler and Heidenreich",
+      "symbol": "NIE",
+      "price": 118.71,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 70,
+      "name": "Bernier and Sons",
+      "symbol": "BER",
+      "price": 160.24,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 71,
+      "name": "Borer - Bayer",
+      "symbol": "BOR",
+      "price": 211.96,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 72,
+      "name": "Schiller and Sons",
+      "symbol": "SCH",
+      "price": 87.33,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 73,
+      "name": "Morar Inc",
+      "symbol": "MOR",
+      "price": 142.33,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 74,
+      "name": "O'Conner Inc",
+      "symbol": "O'C",
+      "price": 184.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 75,
+      "name": "Herman - Treutel",
+      "symbol": "HER",
+      "price": 139.28,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 76,
+      "name": "Hettinger, Willms and O'Reilly",
+      "symbol": "HET",
+      "price": 118.67,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 77,
+      "name": "Hagenes, Brekke and Schiller",
+      "symbol": "HAG",
+      "price": 104.91,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 78,
+      "name": "Bruen - Jacobi",
+      "symbol": "BRU",
+      "price": 206.66,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 79,
+      "name": "Lakin Group",
+      "symbol": "LAK",
+      "price": 114.84,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 80,
+      "name": "Green Group",
+      "symbol": "GRE",
+      "price": 296.27,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 81,
+      "name": "Purdy, Pfeffer and Reichert",
+      "symbol": "PUR",
+      "price": 280.24,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 82,
+      "name": "Feil, Kerluke and Jacobson",
+      "symbol": "FEI",
+      "price": 54.12,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 83,
+      "name": "Sawayn - Smith",
+      "symbol": "SAW",
+      "price": 161.93,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 84,
+      "name": "Hansen - Daugherty",
+      "symbol": "HAN",
+      "price": 53.2,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 85,
+      "name": "Romaguera, Boyle and Bogisich",
+      "symbol": "ROM",
+      "price": 45.14,
+      "amount": 8,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 86,
+      "name": "Ruecker, Adams and Bosco",
+      "symbol": "RUE",
+      "price": 215.34,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 87,
+      "name": "Conroy, Ziemann and Zieme",
+      "symbol": "CON",
+      "price": 86.28,
+      "amount": 14,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 88,
+      "name": "Schaefer Group",
+      "symbol": "SCH",
+      "price": 231.44,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 89,
+      "name": "Stamm - Powlowski",
+      "symbol": "STA",
+      "price": 62.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 90,
+      "name": "Hand, Carroll and Daugherty",
+      "symbol": "HAN",
+      "price": 227.7,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 91,
+      "name": "Jones, Conn and Kub",
+      "symbol": "JON",
+      "price": 195.92,
+      "amount": 4,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 92,
+      "name": "Tremblay, Klocko and Auer",
+      "symbol": "TRE",
+      "price": 125.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 93,
+      "name": "Boyle LLC",
+      "symbol": "BOY",
+      "price": 196.23,
+      "amount": 3,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 94,
+      "name": "Wolff - Gutkowski",
+      "symbol": "WOL",
+      "price": 82.57,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 95,
+      "name": "Stanton Group",
+      "symbol": "STA",
+      "price": 175.01,
+      "amount": 11,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 96,
+      "name": "Kertzmann - Conroy",
+      "symbol": "KER",
+      "price": 75.11,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 97,
+      "name": "Grady Inc",
+      "symbol": "GRA",
+      "price": 203.25,
+      "amount": 14,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 98,
+      "name": "O'Kon, Kohler and Stracke",
+      "symbol": "O'K",
+      "price": 110.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 99,
+      "name": "MacGyver - Rempel",
+      "symbol": "MAC",
+      "price": 274.56,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 100,
+      "name": "Lockman, O'Conner and Gaylord",
+      "symbol": "LOC",
+      "price": 105.07,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 101,
+      "name": "Walsh, Spinka and Pouros",
+      "symbol": "WAL",
+      "price": 227.49,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 102,
+      "name": "Jerde, Bogisich and Mraz",
+      "symbol": "JER",
+      "price": 123.61,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 103,
+      "name": "Rowe Group",
+      "symbol": "ROW",
+      "price": 96.07,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 104,
+      "name": "Herzog - Will",
+      "symbol": "HER",
+      "price": 26.33,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 105,
+      "name": "Simonis - King",
+      "symbol": "SIM",
+      "price": 200.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 106,
+      "name": "Zulauf, Ortiz and Welch",
+      "symbol": "ZUL",
+      "price": 14.53,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 107,
+      "name": "Kertzmann LLC",
+      "symbol": "KER",
+      "price": 248.53,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 108,
+      "name": "Metz - Keebler",
+      "symbol": "MET",
+      "price": 243.81,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 109,
+      "name": "Schamberger Inc",
+      "symbol": "SCH",
+      "price": 287.89,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 110,
+      "name": "Reichert, Gaylord and Weissnat",
+      "symbol": "REI",
+      "price": 44.72,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 111,
+      "name": "Metz, Crist and Mante",
+      "symbol": "MET",
+      "price": 223.56,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 112,
+      "name": "Rolfson - Bahringer",
+      "symbol": "ROL",
+      "price": 84.54,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 113,
+      "name": "Boehm - Lakin",
+      "symbol": "BOE",
+      "price": 153.9,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 114,
+      "name": "Langosh - Effertz",
+      "symbol": "LAN",
+      "price": 194.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 115,
+      "name": "Bogisich Group",
+      "symbol": "BOG",
+      "price": 3.61,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 116,
+      "name": "Crooks, Kemmer and Marvin",
+      "symbol": "CRO",
+      "price": 20.11,
+      "amount": 9,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 117,
+      "name": "Crooks and Sons",
+      "symbol": "CRO",
+      "price": 15.63,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 118,
+      "name": "Keebler, Treutel and Kertzmann",
+      "symbol": "KEE",
+      "price": 295.64,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 119,
+      "name": "D'Amore and Sons",
+      "symbol": "D'A",
+      "price": 135.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 120,
+      "name": "Medhurst, Gutmann and Tremblay",
+      "symbol": "MED",
+      "price": 186.21,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 121,
+      "name": "Goldner LLC",
+      "symbol": "GOL",
+      "price": 296.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 122,
+      "name": "Schmitt - Schultz",
+      "symbol": "SCH",
+      "price": 231.74,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 123,
+      "name": "Lynch - Considine",
+      "symbol": "LYN",
+      "price": 234.61,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 124,
+      "name": "Jacobson and Sons",
+      "symbol": "JAC",
+      "price": 73.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 125,
+      "name": "Bosco Inc",
+      "symbol": "BOS",
+      "price": 208.27,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 126,
+      "name": "Koelpin and Sons",
+      "symbol": "KOE",
+      "price": 261.55,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 127,
+      "name": "Kovacek LLC",
+      "symbol": "KOV",
+      "price": 296.08,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 128,
+      "name": "Boyer - Kiehn",
+      "symbol": "BOY",
+      "price": 209.95,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 129,
+      "name": "Beier, Greenholt and Rohan",
+      "symbol": "BEI",
+      "price": 226.13,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 130,
+      "name": "Welch LLC",
+      "symbol": "WEL",
+      "price": 191.06,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 131,
+      "name": "Goyette - Wilkinson",
+      "symbol": "GOY",
+      "price": 219.77,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 132,
+      "name": "Bailey - Halvorson",
+      "symbol": "BAI",
+      "price": 117.04,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 133,
+      "name": "Dach, Hagenes and Wintheiser",
+      "symbol": "DAC",
+      "price": 18.31,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 134,
+      "name": "Schaefer - Prosacco",
+      "symbol": "SCH",
+      "price": 202.28,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 135,
+      "name": "Witting Group",
+      "symbol": "WIT",
+      "price": 250.94,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 136,
+      "name": "Bechtelar - Durgan",
+      "symbol": "BEC",
+      "price": 8.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 137,
+      "name": "Sawayn and Sons",
+      "symbol": "SAW",
+      "price": 7.12,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 138,
+      "name": "Armstrong, Hessel and Goldner",
+      "symbol": "ARM",
+      "price": 45.39,
+      "amount": 12,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 139,
+      "name": "Kulas and Sons",
+      "symbol": "KUL",
+      "price": 178.84,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 140,
+      "name": "Schowalter Group",
+      "symbol": "SCH",
+      "price": 282.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 141,
+      "name": "Mraz - Walsh",
+      "symbol": "MRA",
+      "price": 0.14,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 142,
+      "name": "Considine - Jacobs",
+      "symbol": "CON",
+      "price": 251.07,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 143,
+      "name": "Sipes, Kunze and Koch",
+      "symbol": "SIP",
+      "price": 187.14,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 144,
+      "name": "Steuber, Pfeffer and Frami",
+      "symbol": "STE",
+      "price": 199.36,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 145,
+      "name": "Kerluke - Jacobi",
+      "symbol": "KER",
+      "price": 217.9,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 146,
+      "name": "Cartwright, Daniel and Beer",
+      "symbol": "CAR",
+      "price": 119.63,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 147,
+      "name": "Abernathy, Swaniawski and Koss",
+      "symbol": "ABE",
+      "price": 114.63,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 148,
+      "name": "Lind, Johns and Walter",
+      "symbol": "LIN",
+      "price": 57.04,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 149,
+      "name": "Thiel LLC",
+      "symbol": "THI",
+      "price": 47.53,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 150,
+      "name": "Rice, Franey and Bernier",
+      "symbol": "RIC",
+      "price": 247.11,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 151,
+      "name": "Stracke Group",
+      "symbol": "STR",
+      "price": 187.18,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 152,
+      "name": "Wiegand Inc",
+      "symbol": "WIE",
+      "price": 209.47,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 153,
+      "name": "McGlynn Group",
+      "symbol": "MCG",
+      "price": 242.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 154,
+      "name": "Moore - Bartell",
+      "symbol": "MOO",
+      "price": 21.95,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 155,
+      "name": "McClure - Rolfson",
+      "symbol": "MCC",
+      "price": 139.52,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 156,
+      "name": "Jakubowski, Rau and VonRueden",
+      "symbol": "JAK",
+      "price": 116.7,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 157,
+      "name": "Gibson Group",
+      "symbol": "GIB",
+      "price": 263.78,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 158,
+      "name": "Deckow, Bogan and Hagenes",
+      "symbol": "DEC",
+      "price": 134.03,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 159,
+      "name": "Keebler - Dach",
+      "symbol": "KEE",
+      "price": 187.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 160,
+      "name": "Bechtelar - King",
+      "symbol": "BEC",
+      "price": 90.94,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 161,
+      "name": "Dooley - Koss",
+      "symbol": "DOO",
+      "price": 133.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 162,
+      "name": "Shields Group",
+      "symbol": "SHI",
+      "price": 249.05,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 163,
+      "name": "Wehner, Beahan and Willms",
+      "symbol": "WEH",
+      "price": 183.07,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 164,
+      "name": "Wehner Inc",
+      "symbol": "WEH",
+      "price": 167.18,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 165,
+      "name": "Williamson, Weimann and Jacobi",
+      "symbol": "WIL",
+      "price": 18.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 166,
+      "name": "Turcotte - Sawayn",
+      "symbol": "TUR",
+      "price": 149.22,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 167,
+      "name": "Grimes, Dare and Thompson",
+      "symbol": "GRI",
+      "price": 68.26,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 168,
+      "name": "Brakus - Bradtke",
+      "symbol": "BRA",
+      "price": 215.03,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 169,
+      "name": "Murphy, Raynor and Crona",
+      "symbol": "MUR",
+      "price": 216.59,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 170,
+      "name": "Lindgren, Konopelski and Koss",
+      "symbol": "LIN",
+      "price": 207.53,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 171,
+      "name": "Huel Group",
+      "symbol": "HUE",
+      "price": 118.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 172,
+      "name": "O'Conner Inc",
+      "symbol": "O'C",
+      "price": 138.06,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 173,
+      "name": "Davis Inc",
+      "symbol": "DAV",
+      "price": 254.89,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 174,
+      "name": "Lesch LLC",
+      "symbol": "LES",
+      "price": 181.09,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 175,
+      "name": "Torphy, Keebler and Hackett",
+      "symbol": "TOR",
+      "price": 187.86,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 176,
+      "name": "Zieme - Tillman",
+      "symbol": "ZIE",
+      "price": 172.56,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 177,
+      "name": "O'Hara, Lind and Schaden",
+      "symbol": "O'H",
+      "price": 286.71,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 178,
+      "name": "Kovacek, Schulist and Kerluke",
+      "symbol": "KOV",
+      "price": 275.97,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 179,
+      "name": "Champlin, Mraz and Mertz",
+      "symbol": "CHA",
+      "price": 160.36,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 180,
+      "name": "Batz Group",
+      "symbol": "BAT",
+      "price": 67.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 181,
+      "name": "Wisozk - Farrell",
+      "symbol": "WIS",
+      "price": 265.64,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 182,
+      "name": "Veum - Fritsch",
+      "symbol": "VEU",
+      "price": 243.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 183,
+      "name": "Herzog LLC",
+      "symbol": "HER",
+      "price": 207.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 184,
+      "name": "Haag - O'Hara",
+      "symbol": "HAA",
+      "price": 242.18,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 185,
+      "name": "Jacobi, Von and Swaniawski",
+      "symbol": "JAC",
+      "price": 132.61,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 186,
+      "name": "Batz, Lind and Harber",
+      "symbol": "BAT",
+      "price": 17.87,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 187,
+      "name": "Weber, Gleason and Gislason",
+      "symbol": "WEB",
+      "price": 252.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 188,
+      "name": "Hackett - Herzog",
+      "symbol": "HAC",
+      "price": 235.2,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 189,
+      "name": "Wiza Inc",
+      "symbol": "WIZ",
+      "price": 47.45,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 190,
+      "name": "Hartmann - Witting",
+      "symbol": "HAR",
+      "price": 189,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 191,
+      "name": "Padberg - Mills",
+      "symbol": "PAD",
+      "price": 176.12,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 192,
+      "name": "Klocko - Jerde",
+      "symbol": "KLO",
+      "price": 26.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 193,
+      "name": "Rolfson Inc",
+      "symbol": "ROL",
+      "price": 78.9,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 194,
+      "name": "Wisozk, Littel and Wilkinson",
+      "symbol": "WIS",
+      "price": 75.48,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 195,
+      "name": "Graham LLC",
+      "symbol": "GRA",
+      "price": 106.87,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 196,
+      "name": "Runte, Hansen and Wuckert",
+      "symbol": "RUN",
+      "price": 212.64,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 197,
+      "name": "Kuphal - Douglas",
+      "symbol": "KUP",
+      "price": 97.12,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 198,
+      "name": "Will, Sawayn and Champlin",
+      "symbol": "WIL",
+      "price": 41.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 199,
+      "name": "Rowe - Bartoletti",
+      "symbol": "ROW",
+      "price": 278.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 200,
+      "name": "Flatley, Kohler and Ortiz",
+      "symbol": "FLA",
+      "price": 82.25,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 201,
+      "name": "Langworth, Kohler and Kessler",
+      "symbol": "LAN",
+      "price": 70.63,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 202,
+      "name": "Hirthe, Hackett and Hackett",
+      "symbol": "HIR",
+      "price": 182.66,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 203,
+      "name": "Hammes LLC",
+      "symbol": "HAM",
+      "price": 22.14,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 204,
+      "name": "Schultz, West and Ziemann",
+      "symbol": "SCH",
+      "price": 59.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 205,
+      "name": "Jaskolski - Trantow",
+      "symbol": "JAS",
+      "price": 163.89,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 206,
+      "name": "Gleichner - Towne",
+      "symbol": "GLE",
+      "price": 61.47,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 207,
+      "name": "Auer Group",
+      "symbol": "AUE",
+      "price": 80.2,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 208,
+      "name": "Kiehn - Lakin",
+      "symbol": "KIE",
+      "price": 124.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 209,
+      "name": "Farrell, Kunze and Hilpert",
+      "symbol": "FAR",
+      "price": 180.46,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 210,
+      "name": "Heaney and Sons",
+      "symbol": "HEA",
+      "price": 220.43,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 211,
+      "name": "Bahringer, Boehm and Schiller",
+      "symbol": "BAH",
+      "price": 93.07,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 212,
+      "name": "Gutkowski, Langosh and McDermott",
+      "symbol": "GUT",
+      "price": 155.96,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 213,
+      "name": "Langworth - Powlowski",
+      "symbol": "LAN",
+      "price": 224.23,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 214,
+      "name": "Sawayn - Bednar",
+      "symbol": "SAW",
+      "price": 43.81,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 215,
+      "name": "O'Keefe - Hoeger",
+      "symbol": "O'K",
+      "price": 105.49,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 216,
+      "name": "Kuhic, Kunde and Howe",
+      "symbol": "KUH",
+      "price": 271.97,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 217,
+      "name": "Hackett and Sons",
+      "symbol": "HAC",
+      "price": 212.56,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 218,
+      "name": "Hane Group",
+      "symbol": "HAN",
+      "price": 55.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 219,
+      "name": "Kautzer and Sons",
+      "symbol": "KAU",
+      "price": 153.77,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 220,
+      "name": "Keebler, Stanton and Roob",
+      "symbol": "KEE",
+      "price": 194.74,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 221,
+      "name": "Stracke, Koepp and Cruickshank",
+      "symbol": "STR",
+      "price": 75.28,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 222,
+      "name": "Hermiston LLC",
+      "symbol": "HER",
+      "price": 120.17,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 223,
+      "name": "Welch - Sporer",
+      "symbol": "WEL",
+      "price": 156.22,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 224,
+      "name": "Hills, Nikolaus and Gerlach",
+      "symbol": "HIL",
+      "price": 206.92,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 225,
+      "name": "Carter Inc",
+      "symbol": "CAR",
+      "price": 72.68,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 226,
+      "name": "Gutkowski Inc",
+      "symbol": "GUT",
+      "price": 272.51,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 227,
+      "name": "Bergstrom and Sons",
+      "symbol": "BER",
+      "price": 87.43,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 228,
+      "name": "Doyle, Bednar and Koepp",
+      "symbol": "DOY",
+      "price": 53.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 229,
+      "name": "Kessler, Simonis and Leannon",
+      "symbol": "KES",
+      "price": 121.79,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 230,
+      "name": "Adams and Sons",
+      "symbol": "ADA",
+      "price": 259.92,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 231,
+      "name": "Littel LLC",
+      "symbol": "LIT",
+      "price": 92.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 232,
+      "name": "Altenwerth - Mills",
+      "symbol": "ALT",
+      "price": 190.93,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 233,
+      "name": "Kris, Carroll and Zboncak",
+      "symbol": "KRI",
+      "price": 138.47,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 234,
+      "name": "Fay - Rau",
+      "symbol": "FAY",
+      "price": 168.89,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 235,
+      "name": "Cronin - Lind",
+      "symbol": "CRO",
+      "price": 116.49,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 236,
+      "name": "Considine, Von and Bednar",
+      "symbol": "CON",
+      "price": 274.09,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 237,
+      "name": "Tillman, Luettgen and Kreiger",
+      "symbol": "TIL",
+      "price": 13.46,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 238,
+      "name": "Orn - Jacobson",
+      "symbol": "ORN",
+      "price": 131.91,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 239,
+      "name": "Harris, Lind and Tremblay",
+      "symbol": "HAR",
+      "price": 268.55,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 240,
+      "name": "Borer Group",
+      "symbol": "BOR",
+      "price": 245.35,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 241,
+      "name": "Aufderhar - Wilkinson",
+      "symbol": "AUF",
+      "price": 172.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 242,
+      "name": "Crona Group",
+      "symbol": "CRO",
+      "price": 272.32,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 243,
+      "name": "Bradtke - Hickle",
+      "symbol": "BRA",
+      "price": 292.23,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 244,
+      "name": "Wisozk Group",
+      "symbol": "WIS",
+      "price": 188.99,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 245,
+      "name": "McClure Inc",
+      "symbol": "MCC",
+      "price": 84.49,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 246,
+      "name": "Trantow, Hayes and Herzog",
+      "symbol": "TRA",
+      "price": 256.11,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 247,
+      "name": "Crist, Medhurst and Murazik",
+      "symbol": "CRI",
+      "price": 69.23,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 248,
+      "name": "O'Conner LLC",
+      "symbol": "O'C",
+      "price": 16.28,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 249,
+      "name": "Zemlak - Torphy",
+      "symbol": "ZEM",
+      "price": 52.45,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 250,
+      "name": "Green - Gislason",
+      "symbol": "GRE",
+      "price": 63.25,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 251,
+      "name": "Mertz, Jenkins and Hand",
+      "symbol": "MER",
+      "price": 135.9,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 252,
+      "name": "Davis, Padberg and Emard",
+      "symbol": "DAV",
+      "price": 157.11,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 253,
+      "name": "Fritsch - Hoppe",
+      "symbol": "FRI",
+      "price": 112.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 254,
+      "name": "Gibson LLC",
+      "symbol": "GIB",
+      "price": 258.71,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 255,
+      "name": "Klein, Kris and Donnelly",
+      "symbol": "KLE",
+      "price": 105.68,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 256,
+      "name": "Wisozk LLC",
+      "symbol": "WIS",
+      "price": 0.26,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 257,
+      "name": "Leuschke - Ledner",
+      "symbol": "LEU",
+      "price": 197.76,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 258,
+      "name": "Streich - Waelchi",
+      "symbol": "STR",
+      "price": 233.79,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 259,
+      "name": "Powlowski, Bayer and Schulist",
+      "symbol": "POW",
+      "price": 137.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 260,
+      "name": "Reichert, Rice and Simonis",
+      "symbol": "REI",
+      "price": 238.54,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 261,
+      "name": "Sauer - Oberbrunner",
+      "symbol": "SAU",
+      "price": 163.76,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 262,
+      "name": "Lemke Inc",
+      "symbol": "LEM",
+      "price": 269.76,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 263,
+      "name": "Langosh - Tremblay",
+      "symbol": "LAN",
+      "price": 167.95,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 264,
+      "name": "Cormier LLC",
+      "symbol": "COR",
+      "price": 7.91,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 265,
+      "name": "Dooley, Ziemann and Wiegand",
+      "symbol": "DOO",
+      "price": 209.05,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 266,
+      "name": "Stiedemann - Shields",
+      "symbol": "STI",
+      "price": 66.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 267,
+      "name": "Gusikowski Inc",
+      "symbol": "GUS",
+      "price": 203.33,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 268,
+      "name": "Heaney - Schaden",
+      "symbol": "HEA",
+      "price": 274.25,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 269,
+      "name": "Bogisich, Heathcote and O'Hara",
+      "symbol": "BOG",
+      "price": 105.26,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 270,
+      "name": "Hoppe Group",
+      "symbol": "HOP",
+      "price": 273.43,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 271,
+      "name": "Kub Group",
+      "symbol": "KUB",
+      "price": 53.62,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 272,
+      "name": "Breitenberg Group",
+      "symbol": "BRE",
+      "price": 191.58,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 273,
+      "name": "Haley LLC",
+      "symbol": "HAL",
+      "price": 174.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 274,
+      "name": "Emmerich - Altenwerth",
+      "symbol": "EMM",
+      "price": 9.31,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 275,
+      "name": "Abshire LLC",
+      "symbol": "ABS",
+      "price": 85.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 276,
+      "name": "Bogisich - Corwin",
+      "symbol": "BOG",
+      "price": 257.14,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 277,
+      "name": "Watsica, Volkman and Upton",
+      "symbol": "WAT",
+      "price": 53.17,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 278,
+      "name": "Senger and Sons",
+      "symbol": "SEN",
+      "price": 108.18,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 279,
+      "name": "Greenholt, Jakubowski and Olson",
+      "symbol": "GRE",
+      "price": 242.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 280,
+      "name": "Brekke, Trantow and Leffler",
+      "symbol": "BRE",
+      "price": 266.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 281,
+      "name": "Nader Inc",
+      "symbol": "NAD",
+      "price": 28.37,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 282,
+      "name": "Hilpert, Fisher and Dietrich",
+      "symbol": "HIL",
+      "price": 221.99,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 283,
+      "name": "Fahey Inc",
+      "symbol": "FAH",
+      "price": 72.66,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 284,
+      "name": "Herman, Predovic and Ferry",
+      "symbol": "HER",
+      "price": 252.73,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 285,
+      "name": "Schamberger, Feil and Botsford",
+      "symbol": "SCH",
+      "price": 197.33,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 286,
+      "name": "Jerde - Considine",
+      "symbol": "JER",
+      "price": 171.7,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 287,
+      "name": "Reichert Group",
+      "symbol": "REI",
+      "price": 37.84,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 288,
+      "name": "Strosin, Waters and VonRueden",
+      "symbol": "STR",
+      "price": 185.93,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 289,
+      "name": "Wehner - Bradtke",
+      "symbol": "WEH",
+      "price": 271.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 290,
+      "name": "White and Sons",
+      "symbol": "WHI",
+      "price": 289.63,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 291,
+      "name": "Oberbrunner, Olson and Barton",
+      "symbol": "OBE",
+      "price": 78.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 292,
+      "name": "Farrell - Corkery",
+      "symbol": "FAR",
+      "price": 163.17,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 293,
+      "name": "Gerlach - Daniel",
+      "symbol": "GER",
+      "price": 164.47,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 294,
+      "name": "Schroeder Group",
+      "symbol": "SCH",
+      "price": 71.73,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 295,
+      "name": "Breitenberg, Zboncak and D'Amore",
+      "symbol": "BRE",
+      "price": 171.39,
+      "amount": 13,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 296,
+      "name": "Hermann Group",
+      "symbol": "HER",
+      "price": 20.64,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 297,
+      "name": "Fritsch - Johnson",
+      "symbol": "FRI",
+      "price": 299.36,
+      "amount": 7,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 298,
+      "name": "Bins, Casper and Ebert",
+      "symbol": "BIN",
+      "price": 47.66,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 299,
+      "name": "Waelchi - Volkman",
+      "symbol": "WAE",
+      "price": 215.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 300,
+      "name": "Glover - Grady",
+      "symbol": "GLO",
+      "price": 212.84,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 301,
+      "name": "Kirlin - Weber",
+      "symbol": "KIR",
+      "price": 259.44,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 302,
+      "name": "Cremin Group",
+      "symbol": "CRE",
+      "price": 229.78,
+      "amount": 7,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 303,
+      "name": "Nader - McLaughlin",
+      "symbol": "NAD",
+      "price": 193.81,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 304,
+      "name": "Gibson and Sons",
+      "symbol": "GIB",
+      "price": 103.4,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 305,
+      "name": "Brakus - Graham",
+      "symbol": "BRA",
+      "price": 261.05,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 306,
+      "name": "Schoen - Tromp",
+      "symbol": "SCH",
+      "price": 24.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 307,
+      "name": "Conn LLC",
+      "symbol": "CON",
+      "price": 243.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 308,
+      "name": "Robel LLC",
+      "symbol": "ROB",
+      "price": 119.8,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 309,
+      "name": "Rempel, Gibson and Herzog",
+      "symbol": "REM",
+      "price": 263.09,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 310,
+      "name": "Hackett - Waters",
+      "symbol": "HAC",
+      "price": 196.71,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 311,
+      "name": "Lemke and Sons",
+      "symbol": "LEM",
+      "price": 164.21,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 312,
+      "name": "Emmerich - O'Connell",
+      "symbol": "EMM",
+      "price": 268.89,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 313,
+      "name": "Brekke - Ferry",
+      "symbol": "BRE",
+      "price": 244.05,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 314,
+      "name": "Howell, Kohler and Spinka",
+      "symbol": "HOW",
+      "price": 2.75,
+      "amount": 1,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 315,
+      "name": "Hirthe, Mayert and Kirlin",
+      "symbol": "HIR",
+      "price": 177.24,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 316,
+      "name": "Green - Schaden",
+      "symbol": "GRE",
+      "price": 29.51,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 317,
+      "name": "Ebert, Aufderhar and Nienow",
+      "symbol": "EBE",
+      "price": 141.2,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 318,
+      "name": "Turner, Hintz and O'Hara",
+      "symbol": "TUR",
+      "price": 171.49,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 319,
+      "name": "Casper, Bailey and Schneider",
+      "symbol": "CAS",
+      "price": 70.72,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 320,
+      "name": "Gerhold LLC",
+      "symbol": "GER",
+      "price": 286.14,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 321,
+      "name": "Strosin Group",
+      "symbol": "STR",
+      "price": 58.97,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 322,
+      "name": "Quitzon and Sons",
+      "symbol": "QUI",
+      "price": 82.25,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 323,
+      "name": "Ziemann Group",
+      "symbol": "ZIE",
+      "price": 246.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 324,
+      "name": "Prosacco, Rogahn and Frami",
+      "symbol": "PRO",
+      "price": 27.06,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 325,
+      "name": "Schiller, Kshlerin and Senger",
+      "symbol": "SCH",
+      "price": 210.86,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 326,
+      "name": "Grimes and Sons",
+      "symbol": "GRI",
+      "price": 0.96,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 327,
+      "name": "Spencer - Goodwin",
+      "symbol": "SPE",
+      "price": 58.09,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 328,
+      "name": "Thompson - D'Amore",
+      "symbol": "THO",
+      "price": 274.9,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 329,
+      "name": "Medhurst, Effertz and Murazik",
+      "symbol": "MED",
+      "price": 287.28,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 330,
+      "name": "Upton Group",
+      "symbol": "UPT",
+      "price": 186.74,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 331,
+      "name": "Zemlak - Rath",
+      "symbol": "ZEM",
+      "price": 13.68,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 332,
+      "name": "Bins - Rogahn",
+      "symbol": "BIN",
+      "price": 188.17,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 333,
+      "name": "Reichel - Schowalter",
+      "symbol": "REI",
+      "price": 1.24,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 334,
+      "name": "Kertzmann and Sons",
+      "symbol": "KER",
+      "price": 267.95,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 335,
+      "name": "Bradtke, Stracke and Von",
+      "symbol": "BRA",
+      "price": 226.03,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 336,
+      "name": "Parisian LLC",
+      "symbol": "PAR",
+      "price": 103.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 337,
+      "name": "Welch - Grady",
+      "symbol": "WEL",
+      "price": 65.65,
+      "amount": 24,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 338,
+      "name": "Roob - Waelchi",
+      "symbol": "ROO",
+      "price": 60.28,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 339,
+      "name": "Graham - Lowe",
+      "symbol": "GRA",
+      "price": 273.24,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 340,
+      "name": "Kohler, Zemlak and Erdman",
+      "symbol": "KOH",
+      "price": 281.5,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 341,
+      "name": "Barrows, McKenzie and Heaney",
+      "symbol": "BAR",
+      "price": 43.09,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 342,
+      "name": "Swift, Reichert and Hills",
+      "symbol": "SWI",
+      "price": 222.13,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 343,
+      "name": "Toy - Mosciski",
+      "symbol": "TOY",
+      "price": 189.93,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 344,
+      "name": "Abernathy LLC",
+      "symbol": "ABE",
+      "price": 114.74,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 345,
+      "name": "Wilderman - Crist",
+      "symbol": "WIL",
+      "price": 227.01,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 346,
+      "name": "Feest, Breitenberg and Crist",
+      "symbol": "FEE",
+      "price": 193.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 347,
+      "name": "Anderson - Keebler",
+      "symbol": "AND",
+      "price": 96.15,
+      "amount": 25,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 348,
+      "name": "Quitzon - Zieme",
+      "symbol": "QUI",
+      "price": 110.1,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 349,
+      "name": "Strosin - Erdman",
+      "symbol": "STR",
+      "price": 183.51,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 350,
+      "name": "Kertzmann and Sons",
+      "symbol": "KER",
+      "price": 77.46,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 351,
+      "name": "Fritsch, Yundt and Dooley",
+      "symbol": "FRI",
+      "price": 182.75,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 352,
+      "name": "VonRueden - Koelpin",
+      "symbol": "VON",
+      "price": 185.81,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 353,
+      "name": "Muller and Sons",
+      "symbol": "MUL",
+      "price": 117.53,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 354,
+      "name": "Howell - Ziemann",
+      "symbol": "HOW",
+      "price": 230.97,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 355,
+      "name": "Wehner, Moore and Quitzon",
+      "symbol": "WEH",
+      "price": 235.7,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 356,
+      "name": "Renner, Okuneva and Dooley",
+      "symbol": "REN",
+      "price": 294.42,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 357,
+      "name": "Mante, Metz and Hegmann",
+      "symbol": "MAN",
+      "price": 269.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 358,
+      "name": "McCullough, Daugherty and Emard",
+      "symbol": "MCC",
+      "price": 163.12,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 359,
+      "name": "Reilly - Farrell",
+      "symbol": "REI",
+      "price": 55.33,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 360,
+      "name": "Fadel, Klein and Monahan",
+      "symbol": "FAD",
+      "price": 193.44,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 361,
+      "name": "Stamm, Wehner and Marvin",
+      "symbol": "STA",
+      "price": 261,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 362,
+      "name": "Goodwin - Predovic",
+      "symbol": "GOO",
+      "price": 94.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 363,
+      "name": "Lueilwitz - Conroy",
+      "symbol": "LUE",
+      "price": 278.94,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 364,
+      "name": "O'Conner and Sons",
+      "symbol": "O'C",
+      "price": 135.34,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 365,
+      "name": "Hermiston, Pouros and Stehr",
+      "symbol": "HER",
+      "price": 192.26,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 366,
+      "name": "Nienow, Kemmer and Herzog",
+      "symbol": "NIE",
+      "price": 258.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 367,
+      "name": "Rohan Group",
+      "symbol": "ROH",
+      "price": 200.28,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 368,
+      "name": "Upton Inc",
+      "symbol": "UPT",
+      "price": 160.43,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 369,
+      "name": "Runte Group",
+      "symbol": "RUN",
+      "price": 223.17,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 370,
+      "name": "Cole, Waters and Gorczany",
+      "symbol": "COL",
+      "price": 253.03,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 371,
+      "name": "Wilkinson, Ratke and Stroman",
+      "symbol": "WIL",
+      "price": 53.68,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 372,
+      "name": "Lind Inc",
+      "symbol": "LIN",
+      "price": 234.06,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 373,
+      "name": "Windler - Fadel",
+      "symbol": "WIN",
+      "price": 274.59,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 374,
+      "name": "Jaskolski - Stanton",
+      "symbol": "JAS",
+      "price": 295.99,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 375,
+      "name": "Schoen LLC",
+      "symbol": "SCH",
+      "price": 218.7,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 376,
+      "name": "McKenzie and Sons",
+      "symbol": "MCK",
+      "price": 192.5,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 377,
+      "name": "Hammes and Sons",
+      "symbol": "HAM",
+      "price": 273.41,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 378,
+      "name": "Conroy - Ward",
+      "symbol": "CON",
+      "price": 291.68,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 379,
+      "name": "Spencer - Hand",
+      "symbol": "SPE",
+      "price": 122.34,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 380,
+      "name": "Mills - McDermott",
+      "symbol": "MIL",
+      "price": 7.3,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 381,
+      "name": "Stanton - Legros",
+      "symbol": "STA",
+      "price": 255.2,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 382,
+      "name": "Cole, Mills and Wiegand",
+      "symbol": "COL",
+      "price": 137.91,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 383,
+      "name": "Sipes - Koch",
+      "symbol": "SIP",
+      "price": 98.91,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 384,
+      "name": "Klein - Armstrong",
+      "symbol": "KLE",
+      "price": 205.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 385,
+      "name": "Langosh, Gleichner and Leuschke",
+      "symbol": "LAN",
+      "price": 276.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 386,
+      "name": "Jacobi and Sons",
+      "symbol": "JAC",
+      "price": 74,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 387,
+      "name": "Wolff, Gulgowski and Macejkovic",
+      "symbol": "WOL",
+      "price": 212.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 388,
+      "name": "Labadie - Reynolds",
+      "symbol": "LAB",
+      "price": 83.09,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 389,
+      "name": "Mueller, Little and Lowe",
+      "symbol": "MUE",
+      "price": 121.06,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 390,
+      "name": "Emmerich, Olson and Hintz",
+      "symbol": "EMM",
+      "price": 208.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 391,
+      "name": "Langosh, O'Conner and Kunde",
+      "symbol": "LAN",
+      "price": 117.87,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 392,
+      "name": "Schinner, Marvin and Pfeffer",
+      "symbol": "SCH",
+      "price": 109.79,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 393,
+      "name": "Treutel Inc",
+      "symbol": "TRE",
+      "price": 55.24,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 394,
+      "name": "Schmitt Group",
+      "symbol": "SCH",
+      "price": 28.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 395,
+      "name": "Oberbrunner, Tromp and Spencer",
+      "symbol": "OBE",
+      "price": 127.44,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 396,
+      "name": "Renner Group",
+      "symbol": "REN",
+      "price": 76.37,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 397,
+      "name": "Grady, Wiza and Anderson",
+      "symbol": "GRA",
+      "price": 46.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 398,
+      "name": "Runte, Wisoky and Ernser",
+      "symbol": "RUN",
+      "price": 140.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 399,
+      "name": "Runolfsson and Sons",
+      "symbol": "RUN",
+      "price": 92.17,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 400,
+      "name": "Bosco - Gleichner",
+      "symbol": "BOS",
+      "price": 213.38,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 401,
+      "name": "Jacobi - Mann",
+      "symbol": "JAC",
+      "price": 193.97,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 402,
+      "name": "Cruickshank - Schroeder",
+      "symbol": "CRU",
+      "price": 186.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 403,
+      "name": "Hermann, Rath and Dare",
+      "symbol": "HER",
+      "price": 187.87,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 404,
+      "name": "Daugherty and Sons",
+      "symbol": "DAU",
+      "price": 43.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 405,
+      "name": "Batz Inc",
+      "symbol": "BAT",
+      "price": 189.04,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 406,
+      "name": "Legros Group",
+      "symbol": "LEG",
+      "price": 141.23,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 407,
+      "name": "Lesch, Torphy and Quigley",
+      "symbol": "LES",
+      "price": 210.9,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 408,
+      "name": "Reichert, Greenholt and Wolff",
+      "symbol": "REI",
+      "price": 233.38,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 409,
+      "name": "Jast, Cummings and Osinski",
+      "symbol": "JAS",
+      "price": 62.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 410,
+      "name": "Becker and Sons",
+      "symbol": "BEC",
+      "price": 246.53,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 411,
+      "name": "Beer - Quitzon",
+      "symbol": "BEE",
+      "price": 151.33,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 412,
+      "name": "Abshire - Gutkowski",
+      "symbol": "ABS",
+      "price": 57.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 413,
+      "name": "Reinger, Denesik and Klein",
+      "symbol": "REI",
+      "price": 274.52,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 414,
+      "name": "Kunde Inc",
+      "symbol": "KUN",
+      "price": 85.72,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 415,
+      "name": "Heidenreich Group",
+      "symbol": "HEI",
+      "price": 243.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 416,
+      "name": "Torp - Kirlin",
+      "symbol": "TOR",
+      "price": 31.96,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 417,
+      "name": "Mayert - Senger",
+      "symbol": "MAY",
+      "price": 14.09,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 418,
+      "name": "Leffler LLC",
+      "symbol": "LEF",
+      "price": 278.49,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 419,
+      "name": "Hackett LLC",
+      "symbol": "HAC",
+      "price": 152.66,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 420,
+      "name": "Jaskolski, Wisoky and Romaguera",
+      "symbol": "JAS",
+      "price": 118.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 421,
+      "name": "Leannon and Sons",
+      "symbol": "LEA",
+      "price": 157.67,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 422,
+      "name": "Kerluke - Hane",
+      "symbol": "KER",
+      "price": 22.32,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 423,
+      "name": "Barton, Tillman and Stracke",
+      "symbol": "BAR",
+      "price": 132.83,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 424,
+      "name": "Huels, Schiller and Bechtelar",
+      "symbol": "HUE",
+      "price": 177.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 425,
+      "name": "Rodriguez, Farrell and Bergstrom",
+      "symbol": "ROD",
+      "price": 196.22,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 426,
+      "name": "Quitzon Group",
+      "symbol": "QUI",
+      "price": 275.27,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 427,
+      "name": "Metz, Jacobs and O'Conner",
+      "symbol": "MET",
+      "price": 193.51,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 428,
+      "name": "Kihn and Sons",
+      "symbol": "KIH",
+      "price": 256.08,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 429,
+      "name": "Johnson Inc",
+      "symbol": "JOH",
+      "price": 112.74,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 430,
+      "name": "Dietrich, Corwin and Borer",
+      "symbol": "DIE",
+      "price": 225.36,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 431,
+      "name": "Thiel, Wilderman and Roberts",
+      "symbol": "THI",
+      "price": 40.89,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 432,
+      "name": "Cartwright - Hills",
+      "symbol": "CAR",
+      "price": 25.11,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 433,
+      "name": "Morar - Schneider",
+      "symbol": "MOR",
+      "price": 250.29,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 434,
+      "name": "Goldner - Little",
+      "symbol": "GOL",
+      "price": 172.4,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 435,
+      "name": "Beatty, Koelpin and Keebler",
+      "symbol": "BEA",
+      "price": 76.66,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 436,
+      "name": "Metz Group",
+      "symbol": "MET",
+      "price": 64.58,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 437,
+      "name": "Yost - Armstrong",
+      "symbol": "YOS",
+      "price": 27.21,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 438,
+      "name": "MacGyver, Gaylord and Lakin",
+      "symbol": "MAC",
+      "price": 272.1,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 439,
+      "name": "Lemke and Sons",
+      "symbol": "LEM",
+      "price": 166.81,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 440,
+      "name": "Kling - Lebsack",
+      "symbol": "KLI",
+      "price": 17.66,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 441,
+      "name": "Haley - Sawayn",
+      "symbol": "HAL",
+      "price": 209.3,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 442,
+      "name": "Lemke, Lakin and Lockman",
+      "symbol": "LEM",
+      "price": 38.06,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 443,
+      "name": "Konopelski, Walter and Hegmann",
+      "symbol": "KON",
+      "price": 257.23,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 444,
+      "name": "Schuster - Rice",
+      "symbol": "SCH",
+      "price": 142.39,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 445,
+      "name": "Kuhic, Douglas and Stracke",
+      "symbol": "KUH",
+      "price": 273.07,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 446,
+      "name": "Goldner, Brown and Balistreri",
+      "symbol": "GOL",
+      "price": 124.2,
+      "amount": 10,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 447,
+      "name": "Runte - Friesen",
+      "symbol": "RUN",
+      "price": 135.6,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 448,
+      "name": "Strosin - Skiles",
+      "symbol": "STR",
+      "price": 65.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 449,
+      "name": "Senger - Erdman",
+      "symbol": "SEN",
+      "price": 93.4,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 450,
+      "name": "Veum and Sons",
+      "symbol": "VEU",
+      "price": 242.4,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 451,
+      "name": "Harvey - Koelpin",
+      "symbol": "HAR",
+      "price": 254.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 452,
+      "name": "Johns - Legros",
+      "symbol": "JOH",
+      "price": 237.98,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 453,
+      "name": "Simonis, Bosco and Emard",
+      "symbol": "SIM",
+      "price": 14.05,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 454,
+      "name": "Ratke, Swaniawski and Beier",
+      "symbol": "RAT",
+      "price": 140.08,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 455,
+      "name": "Brakus - Jast",
+      "symbol": "BRA",
+      "price": 53.35,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 456,
+      "name": "McGlynn, Smitham and Bahringer",
+      "symbol": "MCG",
+      "price": 162.47,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 457,
+      "name": "MacGyver Inc",
+      "symbol": "MAC",
+      "price": 34.76,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 458,
+      "name": "Christiansen Inc",
+      "symbol": "CHR",
+      "price": 4.23,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 459,
+      "name": "Rippin and Sons",
+      "symbol": "RIP",
+      "price": 287.84,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 460,
+      "name": "Harber LLC",
+      "symbol": "HAR",
+      "price": 23.65,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 461,
+      "name": "Wiegand and Sons",
+      "symbol": "WIE",
+      "price": 55.25,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 462,
+      "name": "Barrows - Wyman",
+      "symbol": "BAR",
+      "price": 244.95,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 463,
+      "name": "Jacobs and Sons",
+      "symbol": "JAC",
+      "price": 97.44,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 464,
+      "name": "Keeling - O'Hara",
+      "symbol": "KEE",
+      "price": 207.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 465,
+      "name": "Bogisich - Schmidt",
+      "symbol": "BOG",
+      "price": 90.27,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 466,
+      "name": "Kozey - Rath",
+      "symbol": "KOZ",
+      "price": 236.97,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 467,
+      "name": "Kshlerin and Sons",
+      "symbol": "KSH",
+      "price": 105.1,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 468,
+      "name": "Legros - Mueller",
+      "symbol": "LEG",
+      "price": 255.86,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 469,
+      "name": "Daugherty, Schiller and Barton",
+      "symbol": "DAU",
+      "price": 144.9,
+      "amount": 25,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 470,
+      "name": "Hessel Group",
+      "symbol": "HES",
+      "price": 168.57,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 471,
+      "name": "Jacobs, Mueller and Mohr",
+      "symbol": "JAC",
+      "price": 87.03,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 472,
+      "name": "Steuber - Rempel",
+      "symbol": "STE",
+      "price": 41.82,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 473,
+      "name": "Hayes, Boyle and Cole",
+      "symbol": "HAY",
+      "price": 221.64,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 474,
+      "name": "Trantow Group",
+      "symbol": "TRA",
+      "price": 139.35,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 475,
+      "name": "Fay Group",
+      "symbol": "FAY",
+      "price": 231.2,
+      "amount": 19,
+      "owned": true
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 476,
+      "name": "Ruecker - Prosacco",
+      "symbol": "RUE",
+      "price": 210.88,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 477,
+      "name": "Hermiston - Yost",
+      "symbol": "HER",
+      "price": 202.13,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 478,
+      "name": "Howell Group",
+      "symbol": "HOW",
+      "price": 276.81,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 479,
+      "name": "Hansen - Robel",
+      "symbol": "HAN",
+      "price": 1.2,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 480,
+      "name": "Hartmann, Friesen and Mohr",
+      "symbol": "HAR",
+      "price": 252.77,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 481,
+      "name": "White, Dickens and Robel",
+      "symbol": "WHI",
+      "price": 191.73,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 482,
+      "name": "Lubowitz and Sons",
+      "symbol": "LUB",
+      "price": 57.96,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 483,
+      "name": "Gottlieb - Lueilwitz",
+      "symbol": "GOT",
+      "price": 138.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 484,
+      "name": "Beatty, Daugherty and Wisozk",
+      "symbol": "BEA",
+      "price": 226.23,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 485,
+      "name": "O'Conner - Daniel",
+      "symbol": "O'C",
+      "price": 101.06,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 486,
+      "name": "Blanda, Green and Leffler",
+      "symbol": "BLA",
+      "price": 222.69,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 487,
+      "name": "Strosin and Sons",
+      "symbol": "STR",
+      "price": 135.02,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 488,
+      "name": "Lakin - Torp",
+      "symbol": "LAK",
+      "price": 257.2,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 489,
+      "name": "Green - McDermott",
+      "symbol": "GRE",
+      "price": 166.05,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 490,
+      "name": "Schmidt Group",
+      "symbol": "SCH",
+      "price": 296.3,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 491,
+      "name": "Carter, Bosco and Sporer",
+      "symbol": "CAR",
+      "price": 214.34,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 492,
+      "name": "Johnson, White and Flatley",
+      "symbol": "JOH",
+      "price": 230.56,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 493,
+      "name": "Schroeder Inc",
+      "symbol": "SCH",
+      "price": 184.11,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 494,
+      "name": "Breitenberg Group",
+      "symbol": "BRE",
+      "price": 16.64,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 495,
+      "name": "Lowe and Sons",
+      "symbol": "LOW",
+      "price": 141.73,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 496,
+      "name": "Rau, Gleason and Gottlieb",
+      "symbol": "RAU",
+      "price": 107.8,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 497,
+      "name": "Blanda, Steuber and O'Hara",
+      "symbol": "BLA",
+      "price": 141.15,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 498,
+      "name": "Hane LLC",
+      "symbol": "HAN",
+      "price": 56.99,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 499,
+      "name": "Toy, Kautzer and DuBuque",
+      "symbol": "TOY",
+      "price": 123.42,
+      "amount": 0,
+      "owned": false
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "fields": {
+      "id": 500,
+      "name": "Feil and Sons",
+      "symbol": "FEI",
+      "price": 248.24,
+      "amount": 59,
+      "owned": true
+    }
+  }
+]

@@ -4,8 +4,6 @@ const router = express.Router();
 const db = require('../databaseConfig')
 const stocks_query = require("./queries/stock_query")
 
-const logger = morgan('combined')
-
 const convertBoolean = (resultsArray) => {
   resultsArray.forEach(element => {
     if (element.owned === "true" || element.owned === 1) {
@@ -47,7 +45,27 @@ router.get('/', (req, res) => {
   db.query(stocks_query.get_all_stocks, (error, results) => {
     if (error) throw error;
     convertBoolean(results)
-    return res.status(200).send(results)
+
+    let return_result = []
+
+    for (let i = 0; i < results.length; i++) {
+      // console.log(results[i].id)
+      return_result.push(
+        {
+          model: "stocks.stock",
+          fields: {
+            "id": results[i].id,
+            "name": results[i].name,
+            "symbol": results[i].symbol,
+            "price": results[i].price,
+            "amount": results[i].amount,
+            "owned": results[i].owned
+          }
+        }
+      )
+    }
+
+    return res.status(200).send(return_result)
   });
 })
 
