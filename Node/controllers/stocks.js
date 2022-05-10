@@ -149,7 +149,7 @@ router.get('/:id', (req, res) => {
   db.query(SQL_QUERY, (error, results) => {
     if (error) throw error;
 
-    return res.status(200).send({ good: 'This is good' })
+    return res.status(200).send(results)
   });
 })
 
