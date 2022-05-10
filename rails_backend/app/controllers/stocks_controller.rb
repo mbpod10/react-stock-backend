@@ -39,11 +39,13 @@ class StocksController < ApplicationController
 
     if @amount == 0 || !@amount
         error_response = {'error': 'Please Enter Valid Number'}
+
         render json: error_response
     end
 
     if @transaction == "sell"
       if @stock.amount < @amount
+
         render json: {'error': "You Only Have #{@stock.amount} Share(s) To Sell"}      
       else
         newAmount = @stock.amount - @amount
@@ -51,10 +53,12 @@ class StocksController < ApplicationController
           @stock.amount = 0
           @stock.owned = false
           @stock.save
+
           render json: @stock
         else
           @stock.amount = newAmount
           @stock.save
+
           render json: @stock
         end
       end
@@ -65,16 +69,19 @@ class StocksController < ApplicationController
       @stock.amount = newAmount
       @stock.owned = true
       @stock.save
+
       render json: @stock
     end
 
   end
 
   def total
-    query_string = "SELECT ROUND(SUM(price * amount), 2) as total_amount FROM stocks;"
-    results = ActiveRecord::Base.connection.execute(query_string)
-   
-    render json: results
+    string = 'total_amount'
+    query_string = "SELECT ROUND(SUM(price * amount), 2) as #{string} FROM stocks;"
+    results = ActiveRecord::Base.connection.execute(query_string) 
+    float = results.field_values(string)[0].to_f   
+
+    render json: {"#{string}": float}
   end
 
 end
