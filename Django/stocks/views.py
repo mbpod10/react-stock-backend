@@ -1,7 +1,5 @@
 from .models import Stock
 from .serializers import StockSerializer
-from django.http import JsonResponse
-from rest_framework.parsers import JSONParser
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
@@ -20,7 +18,7 @@ def stock_list(request):
 @api_view(['GET'])
 def stock_list_offset(request, page_num, order_query):
     if request.method == 'GET':
-        pagination_count = 100
+        pagination_count = 50
         start = (page_num - 1) * pagination_count
         end = page_num * pagination_count
 
@@ -35,7 +33,7 @@ def stock_list_offset(request, page_num, order_query):
 
 @api_view(['GET'])
 def get_total_money(request):
-    """ return total amount * total price"""
+    """ return total amount * total price of all stocks """
     if request.method == 'GET':
         total = Stock.objects.aggregate(total_amount=Sum(
             F('price') * F('amount'), output_field=models.FloatField()))

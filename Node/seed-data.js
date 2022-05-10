@@ -10,9 +10,7 @@ const createStockData = () => {
     let name = faker.company.companyName()
     let symbol = (name.slice(0, 3)).toUpperCase()
     let price = faker.datatype.float({ max: 300 })
-    // let owned = boolArray[Math.floor(Math.random() * boolArray.length)]
     let owned = false
-    // let amount = owned ? faker.datatype.number({ max: 100 }) : 0
     let amount = 0
     stocks.push([name, symbol, price, owned, amount])
   }

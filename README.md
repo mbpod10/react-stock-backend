@@ -33,3 +33,11 @@ $ python3 manage.py loaddata fixtures/my_dump.json
  -- DESTROY THE DATABASE 
 $ python3 manage.py flush 
 ```
+
+# RAILS
+```
+$ rails new rails_backend --api -d postgresql --skip-git
+$ cd rails_backend
+$ rails db:create
+$ rails dbconsole
+```
