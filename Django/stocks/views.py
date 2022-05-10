@@ -12,7 +12,8 @@ def stock_list(request):
     if request.method == 'GET':
         stocks = Stock.objects.all()
         serializer = StockSerializer(stocks, many=True)
-        return Response({"stocks": serializer.data})
+        # return Response({"stocks": serializer.data})
+        return Response(serializer.data)
 
 
 @api_view(['GET'])

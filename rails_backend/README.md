@@ -7,3 +7,9 @@ $ rails dbconsole
 $ rails s -p 4002
 $ rails generate migration CreateStocks
 ```
+
+```
+$ rails dbconsole
+$ SELECT * FROM stocks;
+$ rails db:seed
+```
