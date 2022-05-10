@@ -26,3 +26,10 @@ npm install body-parser cors express morgan nodemon mysql @faker-js/faker
   }
 }
 ```
+
+```
+ -- SEED DATA WITH A JSON FILE
+$ python3 manage.py loaddata fixtures/my_dump.json
+ -- DESTROY THE DATABASE 
+$ python3 manage.py flush 
+```

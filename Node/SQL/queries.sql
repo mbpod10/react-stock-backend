@@ -10,7 +10,7 @@ USE stock_node_db;
 -- SELECT * FROM stocks LIMIT 30 OFFSET 0
 -- SELECT * FROM stocks LIMIT 30 OFFSET 30
 -- SELECT COUNT(id) FROM stocks
--- SELECT ROUND(SUM(price * amount), 2) as total_amount FROM stocks
+SELECT ROUND(SUM(price * amount), 2) as total_amount FROM stocks
 -- SELECT * FROM stocks WHERE amount > 0
 -- UPDATE stocks SET owned = true WHERE id = 1
 -- UPDATE stocks SET amount = 0, owned = false WHERE id = 1
@@ -24,4 +24,4 @@ USE stock_node_db;
 -- SELECT * FROM stocks ORDER BY name LIMIT 50 OFFSET 100 
 -- SELECT * FROM stocks ORDER BY price DESC LIMIT 50 OFFSET 0
 -- SELECT * FROM stocks WHERE owned = true AND SELECT * FROM stocks WHERE owned = false
-SELECT * FROM stocks ORDER BY amount DESC 
+-- SELECT * FROM stocks ORDER BY amount DESC 
